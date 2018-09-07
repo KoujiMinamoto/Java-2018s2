@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Sale
+comment1.params=
+comment1.target=Sale()
+comment2.params=
+comment2.target=void\ displaymenu()
+comment3.params=
+comment3.target=void\ setNewProduct()
+comment4.params=pr
+comment4.target=boolean\ validdouble(java.lang.String)
+comment5.params=name
+comment5.target=boolean\ validname(java.lang.String)
+comment6.params=desc
+comment6.target=boolean\ validdesc(java.lang.String)
+numComments=7
