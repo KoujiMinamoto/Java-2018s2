@@ -1,8 +1,6 @@
 import java.util.*;
 public class ProductList
 {
-
-    
     //Product[] listOfProducts  = new Product[5];
     private ArrayList<Product> productlist;
     public ProductList()
@@ -10,12 +8,13 @@ public class ProductList
         productlist = new ArrayList<Product>();
     }
     
-    public void addproduct(Product newp)
+    public void addproduct(Product newproduct)
     {
-        productlist.add(newp);
-    
-    
+        productlist.add(newproduct);
+   
     }
+    
+    
     public ArrayList<Product> getProducts()
     {
        return productlist;
@@ -27,6 +26,8 @@ public class ProductList
        return productlist.size();
     
     }
+    
+    
     public boolean validname(String name)
     {
         if (productlist != null)

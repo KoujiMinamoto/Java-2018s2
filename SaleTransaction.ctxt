@@ -1,6 +1,13 @@
 #BlueJ class context
 comment0.target=SaleTransaction
-comment0.text=\n\ Write\ a\ description\ of\ class\ SaleTransaction\ here.\n\n\ @author\ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
 comment1.params=
 comment1.target=SaleTransaction()
-numComments=2
+comment2.params=newproduct
+comment2.target=void\ addproduct(Product)
+comment3.params=
+comment3.target=int\ getnumberofproducts()
+comment4.params=
+comment4.target=java.util.ArrayList\ getProducts()
+comment5.params=i
+comment5.target=void\ delete(int)
+numComments=6

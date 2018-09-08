@@ -9,6 +9,7 @@ public class Product
     private double price;
     private int qtyOnHand;
     private int minOrderQty;
+    private int Qty = 0;
     
     public Product()
     {
@@ -25,7 +26,7 @@ public class Product
        name = name1;
     }
     
-    public String getdesc()
+    public String getdescription()
     {
        return desc;  
     }
@@ -65,4 +66,13 @@ public class Product
        minOrderQty = min;
     }        
     
+    public int getQty()
+    {
+       return Qty;  
+    }
+   
+    public void setQty(int qty) 
+    {
+       Qty = Qty;
+    }        
 }

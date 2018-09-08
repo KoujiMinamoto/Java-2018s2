@@ -2,7 +2,7 @@
 comment0.target=ProductList
 comment1.params=
 comment1.target=ProductList()
-comment2.params=newp
+comment2.params=newproduct
 comment2.target=void\ addproduct(Product)
 comment3.params=
 comment3.target=java.util.ArrayList\ getProducts()
